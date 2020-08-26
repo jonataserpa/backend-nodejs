@@ -1,14 +1,14 @@
 # Autenticação usando jsonwebtoken
 
-#ex -> rotas:
-#1-> /auth/register
-#2-> /auth/authenticate
-#3-> demais rotas somente com token validado, após logar com sucesso!
-#4-> /usuarios
+ex -> rotas: </br>
+1-> /auth/register </br>
+2-> /auth/authenticate
+3-> demais rotas somente com token validado, após logar com sucesso!
+4-> /usuarios
 
-#Obs: operações CRUD somente com token válido.
+Obs: operações CRUD somente com token válido.
 
-#utilizado: - express para controle das rotas.
+utilizado: - express para controle das rotas.
            - bcryptjs encriptar senhas.
            - mongoose como banco de dados não relacional.
            - middelwares para validar antes das rotas de acesso.
