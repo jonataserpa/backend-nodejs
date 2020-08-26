@@ -8,7 +8,7 @@ ex -> rotas: </br>
 
 Obs: operações CRUD somente com token válido.</br></br>
 
-utilizado: - express para controle das rotas.</br>
+utilizado: </br>- express para controle das rotas.</br>
            - bcryptjs encriptar senhas.</br>
            - mongoose como banco de dados não relacional.</br>
            - middelwares para validar antes das rotas de acesso.</br>
